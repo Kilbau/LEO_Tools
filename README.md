@@ -41,7 +41,7 @@ Interactive - Shelf Tools - Context - Tab Submenu Path - LEO
 Download or clone this repo and place it somewhere safe.
 
 ### Method 1: houdini.env
-The houdini.env on Windows 10 should be located at c:/users/[username]/Documents/houdini[version]
+The houdini.env on Windows 10 should be located at c:\users\[username]\Documents\houdini[version]
 
 Add following to the env but change the "LEO" path to the downloaded directionary
 
