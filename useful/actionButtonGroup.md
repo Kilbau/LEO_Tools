@@ -1,4 +1,4 @@
-Use this code inside the "Action Button" Tab for **String Parameters**:
+### Use this code inside the "Action Button" Tab for **String Parameters**:
 
 ```
 import soputils
@@ -15,10 +15,10 @@ change the Points to the required selection type:
 
 change the 0 to the current nodes input
 
-For a group dropdown menu 
+### For a group dropdown menu 
 enable **Use Menu** under Menu and change the dropdown to **Toggle (Field + Multiple Selection Menu)**
 
-To get the little arrow symbol
+### To get the little arrow symbol
 
 add a new Tag on the Parameter Menu
 
