@@ -2,9 +2,9 @@
 A collection of HDAs for SideFX Houdini.
 I'll upload them whenever I created a new one for my projects.
 
-Also I'll add some usefull code to the useful folder whenever I encounter something cool.
-
 They are made with Houdini **Indie** and only work with Indie, Apprentice or Educational.
+
+Also I'll add some usefull code to the useful folder whenever I encounter something cool.
 
 ## List of current HDAs:
 ### SOP:
