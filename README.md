@@ -10,6 +10,9 @@ They are made with Houdini Indie and only work with Indie or Apprentice.
 
 
 ## HDA Naming Reference
+follow this naming reference to have a consitent workflow
+
+
 File Name: [type]_[hdaName]_v[xxx].hda
 
   * *sop_variantMerge_v001.hda*
