@@ -17,7 +17,7 @@ File Name: [type]_[hdaName]_v[xxx].hda
 
   * *sop_variantMerge_v001.hda*
 
-Operator Type: LEO::[hdaName]::[x]
+Operator Name: LEO::[hdaName]::[x]
 
   * *LEO::variantMerge::1*
 
