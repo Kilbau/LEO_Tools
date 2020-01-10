@@ -7,7 +7,7 @@ They are made with Houdini **Indie** and only work with Indie, Apprentice or Edu
 ## List of current HDAs:
 ### SOP:
 * variantMerge: Merges Geometry and adds a variant attribute to be used with the H18 "copy to points"-SOP.
-
+* alignPoint: Align Geometry to another Geometry based on a selected Point (currently only one point for Source and Target supported) 
 
 ## HDA Naming Reference:
 Follow this naming reference to have a consitent workflow!
