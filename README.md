@@ -7,3 +7,17 @@ They are made with Houdini Indie and only work with Indie or Apprentice.
 ## List of current HDAs
 ### SOP:
 * variantMerge: Merges Geometry and adds a variant attribute to be used with the H18 "copy to points"-SOP.
+
+
+## HDA Naming Reference
+File Name: [type]_[hdaName]_v[xxx].hda
+
+Operator Type: LEO::[hdaName]::[x]
+
+Operator Label: LEO [Hda Name]
+
+Version: x
+
+Interactive - Shelf Tools - Context - Network Pane - [type]
+
+Interactive - Shelf Tools - Context - Tab Submenu Path - LEO
