@@ -6,4 +6,4 @@ They are made with Houdini Indie and only work with Indie or Apprentice.
 
 ## List of current HDAs
 ### SOP:
-* variant merge: Merges Geometry and adds a variant attribute to be used with the H18 "copy to points"-SOP.
+* variantMerge: Merges Geometry and adds a variant attribute to be used with the H18 "copy to points"-SOP.
