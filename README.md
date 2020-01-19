@@ -10,6 +10,7 @@ Also I'll add some useful code to the useful folder whenever I encounter somethi
 ### SOP:
 * variantMerge: Merges Geometry and adds a variant attribute to be used with the H18 "copy to points"-SOP.
 * !WIP! alignPoint: Align Geometry to another Geometry based on a selected Point (currently only one point for Source and Target supported) 
+* connectPointsIntersect: Similar to connect adjacent pieces (connection type "adjacent points") but it doesn't create lines between points if the lines would intersect with another geometry. 
 
 ## HDA Naming Reference:
 Follow this naming reference to have a consitent workflow!
