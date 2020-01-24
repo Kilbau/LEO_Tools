@@ -52,7 +52,7 @@ Add following to the env but change the "LEO" path to the downloaded directionar
 ```
 LEO="E:/Projects/LEO_Tools"
 
-HOUDINI_PATH=$LEO;$HOUDINI_PATH;&
+HOUDINI_PATH=$LEO;&
 ```
 
 
