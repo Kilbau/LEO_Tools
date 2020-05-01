@@ -30,3 +30,11 @@ test(user_a, user_b, 4);
 i@a = user_a;
 i@b = user_b;
 ```
+## Save functions to file and read them in wrangles ##
+* Save the vex functions in a new file "Filename.h"
+* In a wrangle import functions from the file 
+```C
+#include PATH/TO/FILE/Filename.h
+//e.g. #include "$LEO/vex/LEO_evalLSystems.h"
+```
+* Use the functions as normally
