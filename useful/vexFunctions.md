@@ -38,3 +38,7 @@ i@b = user_b;
 //e.g. #include "$LEO/vex/LEO_evalLSystems.h"
 ```
 * Use the functions as normally
+```C
+float test = lsysMultValue(1,3);
+f@value = test;
+```
