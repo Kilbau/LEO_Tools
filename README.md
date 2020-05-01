@@ -18,7 +18,7 @@ WIP
 
 Recreating the L-Systems SOP using vex and python to allow additional functions and making the overall workflow easier and more art-directable.
 
-This includes the LEO_L-System SOP and some vex functions. Those funcionts are found inside the vex folder.
+This includes the LEO_L-System SOP and some vex functions. Those functions are found inside the vex folder.
 
 
 ## HDA Naming Reference:
