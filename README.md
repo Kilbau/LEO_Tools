@@ -15,7 +15,9 @@ Also I'll add some useful code to the useful folder whenever I encounter somethi
 
 ### L-Systems:
 WIP
+
 Recreating the L-Systems SOP using vex and python to allow additional functions and making the overall workflow easier and more art-directable.
+
 This includes the LEO_L-System SOP and some vex functions. Those funcionts are found inside the vex folder.
 
 
