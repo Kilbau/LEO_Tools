@@ -6,8 +6,8 @@
 //create function with multiplier parameter
 function void test(int in_a, in_b, multiplier)
 {
-	//no need to return those values
-	//they automatically replace the input paramters
+    //no need to return those values
+    //they automatically replace the input paramters
     in_a *= multiplier;
     in_b *= multiplier;
 }
