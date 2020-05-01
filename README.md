@@ -13,6 +13,12 @@ Also I'll add some useful code to the useful folder whenever I encounter somethi
 * **connectPointsIntersect**: Similar to connect adjacent pieces (connection type "adjacent points") but it doesn't create lines between points if the lines would intersect with another geometry.  
   **NOTE:** If you are using the same geometry for points and the intersection then you might have to push the input points a tiny bit along their normals. Otherwise they might intersect with themselves and don't create lines.
 
+### L-Systems:
+WIP
+Recreating the L-Systems SOP using vex and python to allow additional functions and making the overall workflow easier and more art-directable.
+This includes the LEO_L-System SOP and some vex functions. Those funcionts are found inside the vex folder.
+
+
 ## HDA Naming Reference:
 Follow this naming reference to have a consitent workflow!
 
