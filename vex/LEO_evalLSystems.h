@@ -17,9 +17,13 @@ function void lsysMoveGeo(vector c_pos, c_dir; float stepsize; int lineprim)
 //move position along direction
 //f move one
 //h move half
-function void lsysMove(vector c_pos, c_dir; float stepsize)
+function void lsysMove(vector c_pos, c_dir; float stepsize; int lineprim)
 {
 	c_pos  += c_dir * stepsize;
+	int c_point = addpoint(0,c_pos);
+	lineprim = addprim(0,"polyline");
+	addvertex(0,lineprim,c_point);
+
 }
 
 //rotate and return new c_dir
@@ -35,12 +39,12 @@ function void lsysTurn(vector c_dir, up; float angle)
 // " multiply stepsize
 // ! multiply pscale
 // ; multiply angle
-function float lsysMultValue(float origvalue, multiplier)
+function void lsysMultValue(float value, multiplier)
 {
-	float newvalue = origvalue * multiplier;
-	return newvalue;
+	value *= multiplier;
 }
 
+/*
 // _ multiply stepsize
 // ? multiply pscale
 // @ multiply angle
@@ -49,7 +53,7 @@ function float lsysDivValue(float origvalue, divider)
 	float newvalue = origvalue / divider;
 	return newvalue;
 }
-
+*/
 
 
 // ^ pitch up 
