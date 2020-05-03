@@ -60,6 +60,23 @@ function float lsysDivValue(float origvalue, divider)
 // & pitch down 
 
 // T gravity
+function void lsysGravity(vector c_dir, up; float strength)
+{
+	//multiplier biased
+	//if c_dir is close to up or -up then the multiplier goes towards 0
+	float multiplier = 1-abs(dot(c_dir,up));
+	multiplier *= strength;
+
+	//rotate c_dir
+	float radians = radians(multiplier);
+	vector orth = cross(up,c_dir);
+	vector4 quat = quaternion(radians,orth);
+	c_dir = qrotate(quat,c_dir);
+	
+
+
+}
+
 
 // J K M copy geo
 
