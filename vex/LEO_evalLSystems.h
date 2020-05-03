@@ -65,14 +65,15 @@ function void lsysGravity(vector c_dir, up; float strength)
 	//multiplier biased
 	//if c_dir is close to up or -up then the multiplier goes towards 0
 	float multiplier = 1-abs(dot(c_dir,up));
+	//float multiplier = fit(dot(c_dir,up),-1,1,.5,0);
 	multiplier *= strength;
 
 	//rotate c_dir
 	float radians = radians(multiplier);
-	vector orth = cross(up,c_dir);
+	vector orth = cross(c_dir,up);
 	vector4 quat = quaternion(radians,orth);
 	c_dir = qrotate(quat,c_dir);
-	
+
 
 
 }
