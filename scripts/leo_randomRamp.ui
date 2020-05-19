@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>232</width>
-    <height>280</height>
+    <width>300</width>
+    <height>353</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -91,7 +91,39 @@
     </widget>
    </item>
    <item>
-    <widget class="QRadioButton" name="radioButton_2">
+    <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Number of Points:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSpinBox" name="numpts">
+     <property name="maximumSize">
+      <size>
+       <width>50</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>999</number>
+     </property>
+     <property name="value">
+      <number>10</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="adjust_rbtn">
      <property name="text">
       <string>Adjust Current Values</string>
      </property>
@@ -101,7 +133,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QRadioButton" name="radioButton">
+    <widget class="QRadioButton" name="override_rbtn">
      <property name="text">
       <string>Override Current Values</string>
      </property>
@@ -255,7 +287,7 @@
  <resources/>
  <connections>
   <connection>
-   <sender>radioButton_2</sender>
+   <sender>adjust_rbtn</sender>
    <signal>toggled(bool)</signal>
    <receiver>adjust_box</receiver>
    <slot>setEnabled(bool)</slot>
@@ -271,7 +303,7 @@
    </hints>
   </connection>
   <connection>
-   <sender>radioButton</sender>
+   <sender>override_rbtn</sender>
    <signal>toggled(bool)</signal>
    <receiver>override_box</receiver>
    <slot>setEnabled(bool)</slot>
