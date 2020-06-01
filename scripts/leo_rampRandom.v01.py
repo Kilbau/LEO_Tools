@@ -25,6 +25,8 @@ class GeoCreator(QtWidgets.QWidget):
         return(rampparms)
         
     def updateParmCombo(self):
+        #TODO save current ramp and make possible to restore
+
         #TODO fix error if window is created with nothing selected
         #other functions continue even if checkSelection excepts
         selectedNode = self.checkSelection()
@@ -74,9 +76,12 @@ class GeoCreator(QtWidgets.QWidget):
 
     def __init__(self):
         super(GeoCreator,self).__init__()
-        ui_file = "D:/Projects/LEO_DEV/uiTutorial1/leo_randomRamp.ui"
+        # TODO make relative to $LEO
+        ui_file = "D:/Resources/HDA/LEO_Tools/scripts/leo_randomRamp.ui"
         self.ui = QtUiTools.QUiLoader().load(ui_file, parentWidget=self)
         self.setParent(hou.ui.mainQtWindow(), QtCore.Qt.Window)
+        self.setFixedSize(300,390)
+        self.setWindowTitle("LEO Random Ramp")
         
         # update parm combobox
         self.updateParmCombo()

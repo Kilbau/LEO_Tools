@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>300</width>
-    <height>353</height>
+    <height>397</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -42,101 +42,313 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QPushButton" name="update_btn">
-     <property name="text">
-      <string>Update selected Node</string>
+    <widget class="QFrame" name="frame">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
      </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QComboBox" name="parm_combo"/>
-   </item>
-   <item>
-    <widget class="QComboBox" name="comboBox">
-     <item>
-      <property name="text">
-       <string>Linear</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>Constant</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>CatmullRom</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>MonotoneCubic</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>Bezier</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>BSpline</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>Hermite</string>
-      </property>
-     </item>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLabel" name="label">
      <property name="maximumSize">
       <size>
        <width>16777215</width>
-       <height>20</height>
+       <height>50</height>
       </size>
      </property>
-     <property name="text">
-      <string>Number of Points:</string>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
      </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QComboBox" name="parm_combo"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="update_btn">
+        <property name="maximumSize">
+         <size>
+          <width>75</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Update </string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+     <zorder>label</zorder>
+     <zorder>numpts</zorder>
+     <zorder>update_btn</zorder>
+     <zorder>parm_combo</zorder>
     </widget>
    </item>
    <item>
-    <widget class="QSpinBox" name="numpts">
+    <widget class="QFrame" name="frame_3">
      <property name="maximumSize">
       <size>
-       <width>50</width>
-       <height>16777215</height>
+       <width>16777215</width>
+       <height>50</height>
       </size>
      </property>
-     <property name="minimum">
-      <number>1</number>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
      </property>
-     <property name="maximum">
-      <number>999</number>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
      </property>
-     <property name="value">
-      <number>10</number>
+     <property name="lineWidth">
+      <number>0</number>
      </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_5">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>35</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <property name="spacing">
+          <number>6</number>
+         </property>
+         <property name="leftMargin">
+          <number>9</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Interpolation:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox">
+           <item>
+            <property name="text">
+             <string>Linear</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Constant</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CatmullRom</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MonotoneCubic</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Bezier</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BSpline</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Hermite</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+        <zorder>override_rbtn</zorder>
+        <zorder>comboBox</zorder>
+        <zorder>label_2</zorder>
+        <zorder>horizontalSpacer_2</zorder>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_4">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>35</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="spacing">
+          <number>6</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Number of Points:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="numpts">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="minimum">
+            <number>1</number>
+           </property>
+           <property name="maximum">
+            <number>999</number>
+           </property>
+           <property name="value">
+            <number>10</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
     </widget>
    </item>
    <item>
-    <widget class="QRadioButton" name="adjust_rbtn">
-     <property name="text">
-      <string>Adjust Current Values</string>
+    <widget class="QFrame" name="frame_6">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
      </property>
-     <property name="checked">
-      <bool>true</bool>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
      </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QRadioButton" name="override_rbtn">
-     <property name="text">
-      <string>Override Current Values</string>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
      </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QRadioButton" name="adjust_rbtn">
+        <property name="text">
+         <string>Adjust Current Values</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="override_rbtn">
+        <property name="text">
+         <string>Override Current Values</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </widget>
    </item>
    <item>
@@ -149,6 +361,9 @@
      </property>
      <property name="title">
       <string>Adjust current values</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
      </property>
      <widget class="QCheckBox" name="adj_clamp_cb">
       <property name="geometry">
@@ -226,6 +441,12 @@
      <property name="title">
       <string>Override current values</string>
      </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
      <widget class="QDoubleSpinBox" name="over_fitupper_text">
       <property name="geometry">
        <rect>
@@ -273,17 +494,45 @@
     </widget>
    </item>
    <item>
-    <widget class="QPushButton" name="apply_btn">
-     <property name="text">
-      <string>Apply</string>
+    <widget class="QFrame" name="frame_2">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
      </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="restore_btn">
+        <property name="maximumSize">
+         <size>
+          <width>75</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Restore</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="apply_btn">
+        <property name="text">
+         <string>Apply</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </widget>
    </item>
   </layout>
  </widget>
- <tabstops>
-  <tabstop>parm_combo</tabstop>
- </tabstops>
  <resources/>
  <connections>
   <connection>
