@@ -9,7 +9,6 @@ Also I'll add some useful code to the useful folder whenever I encounter somethi
 ## List of current HDAs:
 ### SOP:
 * **variantMerge**: Merges Geometry and adds a variant attribute to be used with the H18 "copy to points"-SOP.
-* **!WIP! alignPoint**: Align Geometry to another Geometry based on a selected Point (currently only one point for Source and Target supported) 
 * **connectPointsIntersect**: Similar to connect adjacent pieces (connection type "adjacent points") but it doesn't create lines between points if the lines would intersect with another geometry.  
   **NOTE:** If you are using the same geometry for points and the intersection then you might have to push the input points a tiny bit along their normals. Otherwise they might intersect with themselves and don't create lines.
 * **colorRampPicker**: Remaps an attribute to a color using images. The colors are interactively picked inside the viewport. (Requires H18+)
@@ -60,6 +59,11 @@ HOUDINI_PATH=$LEO;&
 ```
 
 #### WIP SOPS ####
+* **alignPoint**: Align Geometry to another Geometry based on a selected Point (currently only one point for Source and Target supported) 
+* **distribute**: Easy art-directable scattering (maybe includes support for viewerstates)
+* **simpleGrass**: idk
+* **sculpt**: Maya-like sculpting for simple, (destruktive) changes
+
 ### L-Systems:
 WIP
 
