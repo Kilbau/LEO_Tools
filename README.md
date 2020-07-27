@@ -61,7 +61,6 @@ HOUDINI_PATH=$LEO;&
 
 #### WIP SOPS ####
 * **alignPoint**: Align Geometry to another Geometry based on a selected Point (currently only one point for Source and Target supported) 
-* **distribute**: Easy art-directable scattering (maybe includes support for viewerstates)
 * **simpleGrass**: idk
 * **sculpt**: Maya-like sculpting for simple, (destruktive) changes
 
