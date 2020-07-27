@@ -12,7 +12,7 @@ Also I'll add some useful code to the useful folder whenever I encounter somethi
 * **LEO Group Intersecting Object**: Generates a group based on the intersection with another geometry.
 * **LEO Variant Merge**: Merges geometry and simultaneously creates a variant attribute for the "Copy to Points"-SOP .
 * **LEO Render Out**: WIP
-* **LEO Connect Points Intersect**: F1 Help WIP
+* **LEO Connect Points Intersect**: Creates lines between nearby points which do not intersect with another geometry.
 
 ### OBJ:
 ### MAT:
