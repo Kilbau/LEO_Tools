@@ -8,12 +8,12 @@ Also I'll add some useful code to the useful folder whenever I encounter somethi
 
 ## List of current HDAs:
 ### SOP:
-* **variantMerge**: Merges Geometry and adds a variant attribute to be used with the H18 "copy to points"-SOP.
-* **connectPointsIntersect**: Similar to connect adjacent pieces (connection type "adjacent points") but it doesn't create lines between points if the lines would intersect with another geometry.  
-  **NOTE:** If you are using the same geometry for points and the intersection then you might have to push the input points a tiny bit along their normals. Otherwise they might intersect with themselves and don't create lines.
-* **colorRampPicker**: Remaps an attribute to a color using images. The colors are interactively picked inside the viewport. (Requires H18+)
-* **groupIntersectingObject**: Creates a group based on the intersection of two objects. The group is also expanded to contain the whole connected geometry.
-* **renderOut**: Creates object-level RENDER_* nodes that is connected to the renderOut sop.
+* **LEO Color Ramp Picker**: Allows the interactive creation of a color ramp in the viewport.
+* **LEO Group Intersecting Object**: Generates a group based on the intersection with another geometry.
+* **LEO Variant Merge**: Merges geometry and simultaneously creates a variant attribute for the "Copy to Points"-SOP .
+* **LEO Render Out**: WIP
+* **LEO Connect Points Intersect**: F1 Help WIP
+
 ### OBJ:
 ### MAT:
 
