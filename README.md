@@ -7,6 +7,8 @@ They are made with Houdini 18 **Indie** and should only work with Indie, Apprent
 Also I'll add some useful code to the useful folder whenever I encounter something cool.
 
 ## List of current HDAs:
+### SCRIPTS:
+
 ### SOP:
 * **LEO Color Ramp Picker**: Allows the interactive creation of a color ramp in the viewport.
 * **LEO Group Intersecting Object**: Generates a group based on the intersection with another geometry.
