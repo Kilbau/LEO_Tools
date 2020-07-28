@@ -13,7 +13,6 @@ Also I'll add some useful code to the useful folder whenever I encounter somethi
 * **LEO Color Ramp Picker**: Allows the interactive creation of a color ramp in the viewport.
 * **LEO Group Intersecting Object**: Generates a group based on the intersection with another geometry.
 * **LEO Variant Merge**: Merges geometry and simultaneously creates a variant attribute for the "Copy to Points"-SOP .
-* **LEO Render Out**: WIP
 * **LEO Connect Points Intersect**: Creates lines between nearby points which do not intersect with another geometry.
 
 ### OBJ:
@@ -60,15 +59,3 @@ LEO="E:/Projects/LEO_Tools"
 
 HOUDINI_PATH=$LEO;&
 ```
-
-#### WIP SOPS ####
-* **alignPoint**: Align Geometry to another Geometry based on a selected Point (currently only one point for Source and Target supported) 
-* **simpleGrass**: idk
-* **sculpt**: Maya-like sculpting for simple, (destruktive) changes
-
-### L-Systems:
-WIP
-
-Recreating the L-Systems SOP using vex and python to allow additional functions and making the overall workflow easier and more art-directable.
-
-This includes the LEO_L-System SOP and some vex functions. Those functions are found inside the vex folder.
