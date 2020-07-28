@@ -14,8 +14,11 @@ Also I'll add some useful code to the useful folder whenever I encounter somethi
 * **LEO Group Intersecting Object**: Generates a group based on the intersection with another geometry.
 * **LEO Variant Merge**: Merges geometry and simultaneously creates a variant attribute for the "Copy to Points"-SOP .
 * **LEO Connect Points Intersect**: Creates lines between nearby points which do not intersect with another geometry.
+* **LEO Render Out** Creates an object-level node which only renders the incoming geometry.
 
 ### OBJ:
+* **LEO Render Out Child** Object-level node created by LEO Render Out.
+
 ### MAT:
 
 ## HDA Naming Reference:
