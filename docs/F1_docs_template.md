@@ -1,6 +1,6 @@
 = My Asset =
 #version:
-#icon: opdef:.?IconSVG
+#icon: opdef:.?LEO_logo_v001.svg
 
 """A quick summary of what the node does."""
 
