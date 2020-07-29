@@ -7,6 +7,8 @@ They are made with Houdini 18 **Indie** and should only work with Indie, Apprent
 Also I'll add some useful code to the useful folder whenever I encounter something cool.
 
 ## List of current HDAs:
+All nodes are documentated via the houdini documentation. To view the documentation press F1 or the questionmark-icon in the parameters.
+
 ### SCRIPTS:
 
 ### SOP:
