@@ -17,6 +17,7 @@ All nodes are documentated via the houdini documentation. To view the documentat
 * **LEO Variant Merge**: Merges geometry and simultaneously creates a variant attribute for the "Copy to Points"-SOP .
 * **LEO Connect Points Intersect**: Creates lines between nearby points which do not intersect with another geometry.
 * **LEO Render Out**: Creates an object-level node which only renders the incoming geometry.
+* **LEO Attribute Split**: Splits an incoming geometry based on an attribute.
 
 ### OBJ:
 * **LEO Render Out Child**: Object-level node created by LEO Render Out.
