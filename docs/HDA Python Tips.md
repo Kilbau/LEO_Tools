@@ -1,7 +1,7 @@
 # Action Button Group #
 ### Use this code inside the "Action Button" Tab for **String Parameters**:
 
-```
+```python
 import soputils
 kwargs['geometrytype'] = hou.geometryType.Points
 kwargs['inputindex'] = 0
