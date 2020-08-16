@@ -25,34 +25,6 @@ All nodes are documentated via the houdini documentation. To view the documentat
 
 ### MAT:
 
-## HDA Naming Reference:
-Follow this naming reference to have a consitent workflow!
-
-
-File Name: [type]_[hdaName]_v[xxx].hda
-
-  * *sop_variantMerge_v001.hda*
-
-Operator Name: LEO::[hdaName]::[x]
-
-  * *LEO::variantMerge::1*
-
-Operator Label: LEO [Hda Name]
-
-  * *LEO Variant Merge*
-
-Version: x
-
-  * *1*
-
-Interactive - Shelf Tools - Context - Network Pane - [type]
-
-  * *SOP*
-
-Interactive - Shelf Tools - Context - Tab Submenu Path - LEO
-
-  * *LEO*
-
 ## Installation:
 Download or clone this repo and place it somewhere safe.
 
