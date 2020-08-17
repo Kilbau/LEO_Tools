@@ -12,7 +12,7 @@ All nodes are documentated via the houdini documentation. To view the documentat
 ### SCRIPTS:
 
 ### SOP:
-* **LEO Color Ramp Picker**: Allows the interactive creation of a color ramp in the viewport.
+* **LEO Color Ramp Picker**: Allows the interactive creation of a color ramp in the viewport. [Demo Video](https://vimeo.com/448546910)
 * **LEO Group Intersecting Object**: Generates a group based on the intersection with another geometry.
 * **LEO Variant Merge**: Merges geometry and simultaneously creates a variant attribute for the "Copy to Points"-SOP. [Demo Video](https://vimeo.com/448293988)
 * **LEO Connect Points Intersect**: Creates lines between nearby points which do not intersect with another geometry.
