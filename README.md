@@ -16,12 +16,12 @@ All nodes are documentated via the houdini documentation. To view the documentat
 * **LEO Group Intersecting Object**: Generates a group based on the intersection with another geometry.
 * **LEO Variant Merge**: Merges geometry and simultaneously creates a variant attribute for the "Copy to Points"-SOP. [Demo Video](https://vimeo.com/448293988)
 * **LEO Connect Points Intersect**: Creates lines between nearby points which do not intersect with another geometry.
-* **LEO Render Out**: Creates an object-level node which only renders the incoming geometry.
+* **LEO Object Render**: Creates an object-level node which only renders the incoming geometry.
 * **LEO Attribute Split**: Splits an incoming geometry based on an attribute.
 * **LEO Weighted Random**: Creates an random attribute based on weighted inputs. [Demo Video](https://vimeo.com/448293988)
 
 ### OBJ:
-* **LEO Render Out Child**: Object-level node created by LEO Render Out.
+* **LEO Object Render Child**: Object-level node created by LEO Object Render.
 
 ### MAT:
 
