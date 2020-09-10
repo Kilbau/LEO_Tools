@@ -40,9 +40,9 @@ Add the path to both the ```HOUDINI_PATH``` as well as the ```PYTHONPATH```
 
 Example houdini.env file
 ```
-LEO="E:/Projects/LEO_Tools"
+LEO = "E:/Projects/LEO_Tools"
 
-HOUDINI_PATH=$LEO;&
+HOUDINI_PATH = $LEO;&
 PYTHONPATH = "$LEO/scripts/python;&"
 ```
 
