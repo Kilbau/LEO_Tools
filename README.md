@@ -50,6 +50,7 @@ PYTHONPATH = "$LEO/scripts/python;&"
 ***Requires Houdini 17.5+***
 
 Put the LEOTools_package.json file into the packages folder. 
+
 It should be located here on Windows.
 
 ```c:/users/[username]/Documents/houdini[version]/packages```
