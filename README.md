@@ -51,7 +51,7 @@ PYTHONPATH = "$LEO/scripts/python;&"
 
 Put the LEOTools_package.json file into the packages folder. 
 
-It should be located here on Windows.
+It should be located here on Windows:
 
 ```c:/users/[username]/Documents/houdini[version]/packages```
 
@@ -60,6 +60,7 @@ On Linux:
 ```~Library/Preferences/Houdini```
 
 Finally update following line to match your downloaded directionary
+
 ```"LEO": "D:/Resources/HDA/LEO_Tools"``` 
 ### Display Shelf ###
 
