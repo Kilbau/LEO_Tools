@@ -31,6 +31,7 @@ Download or clone this repo and place it somewhere safe.
 
 ### Method 1: houdini.env
 The houdini.env on Windows 10 should be located at 
+
 ```c:/users/[username]/Documents/houdini[version]```
 
 Add following to the env but change the "LEO" path to the downloaded directionary
@@ -50,9 +51,11 @@ PYTHONPATH = "$LEO/scripts/python;&"
 
 Put the LEOTools_package.json file into the packages folder. 
 It should be located here on Windows.
+
 ```c:/users/[username]/Documents/houdini[version]/packages```
 
 On Linux:
+
 ```~Library/Preferences/Houdini```
 
 Finally update following line to match your downloaded directionary
