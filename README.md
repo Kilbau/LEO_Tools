@@ -62,6 +62,10 @@ On Linux:
 Finally update following line to match your downloaded directionary
 
 ```"LEO": "D:/Resources/HDA/LEO_Tools"``` 
+
+***NOTE:***
+If you have Python installed on your system you can run the included ```create_package_json.py``` file.
+This will create a new LEOTools_package.json with the path to the current directionary.
 ### Display Shelf ###
 
 Add the "LEO Tools" shelf by clicking on the plus by the shelves

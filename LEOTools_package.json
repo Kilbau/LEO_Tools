@@ -1,15 +1,13 @@
 {
-	"recommends": "houdini_version >= '18.0'",
-	"env":[
-		{
-			"LEO": "D:/Resources/HDA/LEO_Tools"
-		},
-		{
-			"PYTHONPATH": "$LEO/scripts/python",
-			"method": "append"
-		},
-
-	],
-	"path": "$LEO"
-
+    "recommends": "houdini_version >= '18.0'",
+    "env": [
+        {
+            "LEO": "D:/Resources/HDA/LEO_Tools"
+        },
+        {
+            "PYTHONPATH": "$LEO/scripts/python",
+            "method": "append"
+        }
+    ],
+    "path": "$LEO"
 }
