@@ -9,7 +9,8 @@ Also I'll add some useful code to the useful folder whenever I encounter somethi
 ## List of current HDAs:
 All nodes are documentated via the houdini documentation. To view the documentation press F1 or the questionmark-icon in the parameters.
 
-### SCRIPTS:
+### SHELF TOOLS:
+* **LEO Random Ramp**: Updates or adjusts ramp parameters by random values to generate more interesting results.
 
 ### SOP:
 * **LEO Color Ramp Picker**: Allows the interactive creation of a color ramp in the viewport. [Demo Video](https://vimeo.com/448546910)
@@ -33,8 +34,15 @@ The houdini.env on Windows 10 should be located at c:\users\\[username]\Document
 
 Add following to the env but change the "LEO" path to the downloaded directionary
 
+Add the path to both the HOUDINI_PATH as well as the PYTHONPATH
+
+Example houdini.env File
 ```
 LEO="E:/Projects/LEO_Tools"
 
 HOUDINI_PATH=$LEO;&
+PYTHONPATH = "$LEO/scripts;&"
 ```
+
+Add the "LEO Tools" shelf by clicking on the plus by the shelves
+"+" -> "Shelves" -> "LEO Tools"
