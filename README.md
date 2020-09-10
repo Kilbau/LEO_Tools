@@ -30,19 +30,39 @@ All nodes are documentated via the houdini documentation. To view the documentat
 Download or clone this repo and place it somewhere safe.
 
 ### Method 1: houdini.env
-The houdini.env on Windows 10 should be located at c:\users\\[username]\Documents\houdini[version]
+The houdini.env on Windows 10 should be located at 
+
+```c:/users/[username]/Documents/houdini[version]```
 
 Add following to the env but change the "LEO" path to the downloaded directionary
 
-Add the path to both the HOUDINI_PATH as well as the PYTHONPATH
+Add the path to both the ```HOUDINI_PATH``` as well as the ```PYTHONPATH```
 
-Example houdini.env File
+Example houdini.env file
 ```
-LEO="E:/Projects/LEO_Tools"
+LEO = "E:/Projects/LEO_Tools"
 
-HOUDINI_PATH=$LEO;&
-PYTHONPATH = "$LEO/scripts;&"
+HOUDINI_PATH = $LEO;&
+PYTHONPATH = "$LEO/scripts/python;&"
 ```
+
+### Method 2: Plugin / Packages
+***Requires Houdini 17.5+***
+
+Put the LEOTools_package.json file into the packages folder. 
+
+It should be located here on Windows:
+
+```c:/users/[username]/Documents/houdini[version]/packages```
+
+On Linux:
+
+```~Library/Preferences/Houdini```
+
+Finally update following line to match your downloaded directionary
+
+```"LEO": "D:/Resources/HDA/LEO_Tools"``` 
+### Display Shelf ###
 
 Add the "LEO Tools" shelf by clicking on the plus by the shelves
 "+" -> "Shelves" -> "LEO Tools"
