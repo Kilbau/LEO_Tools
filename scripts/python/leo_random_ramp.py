@@ -53,12 +53,11 @@ class RandomRamp(QtWidgets.QWidget):
 		updates variables to match the current ui state
 		"""
 		self.resolution = self.ui.value_samples.value()
-
+		
 		self.min_set_value = self.ui.value_set_min.value()
 		self.max_set_value = self.ui.value_set_max.value()
 		self.min_adj_value = self.ui.value_adjust_min.value()
 		self.max_adj_value = self.ui.value_adjust_max.value()
-
 
 	def update_ui(self):
 		"""
@@ -214,7 +213,6 @@ class RandomRamp(QtWidgets.QWidget):
 		"""
 		functionality for the "apply" button
 		"""
-
 		if self.get_ramp_parm():
 
 			self.get_ramp_basis()
