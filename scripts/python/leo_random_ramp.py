@@ -53,7 +53,7 @@ class RandomRamp(QtWidgets.QWidget):
 		updates variables to match the current ui state
 		"""
 		self.resolution = self.ui.value_samples.value()
-		
+
 		self.min_set_value = self.ui.value_set_min.value()
 		self.max_set_value = self.ui.value_set_max.value()
 		self.min_adj_value = self.ui.value_adjust_min.value()
@@ -159,11 +159,10 @@ class RandomRamp(QtWidgets.QWidget):
 		output tuple is len() == resolution, starts with 0.0 and ends with 1.0
 		"""
 		try:
-			ramp_keys = list(numpy.arange(0, 1, (1.0 / (self.resolution-1))))
+			ramp_keys = list(numpy.linspace(0,1,self.resolution))
 		except ZeroDivisionError:
 			ramp_keys = []
-		
-		ramp_keys.append(1.0)
+
 		ramp_keys = tuple(ramp_keys)
 		self.ramp_keys = ramp_keys
 
@@ -215,6 +214,7 @@ class RandomRamp(QtWidgets.QWidget):
 		"""
 		functionality for the "apply" button
 		"""
+
 		if self.get_ramp_parm():
 
 			self.get_ramp_basis()
