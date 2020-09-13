@@ -7,7 +7,7 @@ class RandomRamp(QtWidgets.QWidget):
 
 	def __init__(self):
 		super(RandomRamp,self).__init__()
-		ui_file = "D:/Projects/LEO_DEV/random_ramp/leo_random_ramp.ui"
+		ui_file = hou.getenv("LEO") + "/scripts/python/leo_random_ramp.ui"
 		self.ui = QtUiTools.QUiLoader().load(ui_file, parentWidget=self)
 		self.setParent(hou.ui.mainQtWindow(), QtCore.Qt.Window)
 
