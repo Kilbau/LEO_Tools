@@ -57,7 +57,7 @@
    <item>
     <widget class="QPushButton" name="button_update_node">
      <property name="text">
-      <string>Update selected Node</string>
+      <string>Update Selected Node</string>
      </property>
     </widget>
    </item>
@@ -112,7 +112,7 @@
       </size>
      </property>
      <property name="text">
-      <string>Number of Points:</string>
+      <string>Number Of Points:</string>
      </property>
     </widget>
    </item>
@@ -167,7 +167,7 @@
       </size>
      </property>
      <property name="title">
-      <string>Override current values</string>
+      <string>Override Current values</string>
      </property>
      <property name="checkable">
       <bool>false</bool>
@@ -236,7 +236,7 @@
       </size>
      </property>
      <property name="title">
-      <string>Adjust current values</string>
+      <string>Adjust Current values</string>
      </property>
      <widget class="QCheckBox" name="checkbox_adjust_clamp">
       <property name="geometry">
@@ -248,7 +248,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Clamp Value from 0 - 1</string>
+       <string>Clamp Value From 0 - 1</string>
       </property>
      </widget>
      <widget class="QDoubleSpinBox" name="value_adjust_min">
