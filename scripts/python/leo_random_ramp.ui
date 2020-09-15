@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>300</width>
-    <height>500</height>
+    <height>530</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -232,68 +232,86 @@
      <property name="maximumSize">
       <size>
        <width>16777215</width>
-       <height>70</height>
+       <height>120</height>
       </size>
      </property>
      <property name="title">
       <string>Adjust Current values</string>
      </property>
-     <widget class="QCheckBox" name="checkbox_adjust_clamp">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>50</y>
-        <width>151</width>
-        <height>17</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Clamp Value From 0 - 1</string>
-      </property>
-     </widget>
-     <widget class="QDoubleSpinBox" name="value_adjust_min">
+     <widget class="QWidget" name="">
       <property name="geometry">
        <rect>
         <x>10</x>
         <y>20</y>
-        <width>62</width>
-        <height>22</height>
+        <width>134</width>
+        <height>93</height>
        </rect>
       </property>
-      <property name="frame">
-       <bool>true</bool>
-      </property>
-      <property name="buttonSymbols">
-       <enum>QAbstractSpinBox::UpDownArrows</enum>
-      </property>
-      <property name="minimum">
-       <double>-99.989999999999995</double>
-      </property>
-      <property name="value">
-       <double>-0.100000000000000</double>
-      </property>
-     </widget>
-     <widget class="QDoubleSpinBox" name="value_adjust_max">
-      <property name="geometry">
-       <rect>
-        <x>80</x>
-        <y>20</y>
-        <width>62</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="cursor">
-       <cursorShape>ArrowCursor</cursorShape>
-      </property>
-      <property name="buttonSymbols">
-       <enum>QAbstractSpinBox::UpDownArrows</enum>
-      </property>
-      <property name="minimum">
-       <double>-99.989999999999995</double>
-      </property>
-      <property name="value">
-       <double>0.100000000000000</double>
-      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QDoubleSpinBox" name="value_adjust_min">
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="buttonSymbols">
+            <enum>QAbstractSpinBox::UpDownArrows</enum>
+           </property>
+           <property name="minimum">
+            <double>-99.989999999999995</double>
+           </property>
+           <property name="value">
+            <double>-0.100000000000000</double>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="value_adjust_max">
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="buttonSymbols">
+            <enum>QAbstractSpinBox::UpDownArrows</enum>
+           </property>
+           <property name="minimum">
+            <double>-99.989999999999995</double>
+           </property>
+           <property name="value">
+            <double>0.100000000000000</double>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkbox_adjust_clamp">
+         <property name="text">
+          <string>Clamp Value To 0 - 1</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radiobutton_add">
+         <property name="text">
+          <string>Add</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radiobutton_mult">
+         <property name="text">
+          <string>Multiply</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </widget>
    </item>
