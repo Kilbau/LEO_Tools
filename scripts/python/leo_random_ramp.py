@@ -123,28 +123,40 @@ class RandomRamp(QtWidgets.QWidget):
 		old_ramp = self.ramp_parm.evalAsRamp()
 
 		if old_ramp.isColor():
-			# ramp_values = [self.calc_mean(old_ramp.lookup(position))
-			# 				+ random.uniform(self.min_adj_value, self.max_adj_value)
-			# 				for position in self.ramp_keys
-			# 			]
-
+			# Ramp parm is color
 			ramp_values = []
 			for position in self.ramp_keys:
 				random_value = random.uniform(self.min_adj_value, self.max_adj_value)
 				r, g, b = old_ramp.lookup(position)
 				
-				r += random_value
-				g += random_value
-				b += random_value
+				if self.ui.radiobutton_add.isChecked():
+					r += random_value
+					g += random_value
+					b += random_value
+				elif self.ui.radiobutton_mult.isChecked():
+					r *= random_value
+					g *= random_value
+					b *= random_value
+				else:
+					pass
 
 				ramp_values.append((r,g,b))
 
 
 		else:
-			ramp_values = [old_ramp.lookup(position) 
-							+ random.uniform(self.min_adj_value, self.max_adj_value)
-							for position in self.ramp_keys
-						]
+			# Ramp parm is float
+			if self.ui.radiobutton_add.isChecked():
+				ramp_values = [old_ramp.lookup(position) 
+								+ random.uniform(self.min_adj_value, self.max_adj_value)
+								for position in self.ramp_keys
+							]
+			elif self.ui.radiobutton_mult.isChecked():
+				ramp_values = [old_ramp.lookup(position) 
+								* random.uniform(self.min_adj_value, self.max_adj_value)
+								for position in self.ramp_keys
+							]
+			else:
+				ramp_values = [old_ramp.lookup(position) for position in self.ramp_keys]
 		
 		if self.ui.checkbox_adjust_clamp.isChecked():
 			ramp_values = numpy.clip(ramp_values, 0, 1)
