@@ -2,11 +2,6 @@ import json
 import os
 
 
-class abc:
-    def __init__(self):
-        pass
-
-
 def run():
     path = os.getcwd().replace("\\", "/")
 
