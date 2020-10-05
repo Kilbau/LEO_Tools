@@ -7,11 +7,20 @@
 
   <toolshelf name="leo_shelf" label="LEO Tools">
     <memberTool name="leo_random_ramp"/>
+    <memberTool name="leo_generate_help"/>
   </toolshelf>
 
   <tool name="leo_random_ramp" label="LEO Random Ramp" icon="$LEO/misc/LEO_logo_v001.svg">
     <script scriptType="python"><![CDATA[import leo_random_ramp 
 reload(leo_random_ramp)
 leo_random_ramp.run()]]></script>
+  </tool>
+
+  <tool name="leo_generate_help" label="LEO Generate HDA Help" icon="$leo/misc/LEO_logo_v001.svg">
+    <script scriptType="python"><![CDATA[import leo_generate_help
+
+reload(leo_generate_help)
+leo_generate_help.run()
+]]></script>
   </tool>
 </shelfDocument>

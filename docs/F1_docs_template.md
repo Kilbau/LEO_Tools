@@ -1,34 +1,46 @@
-= My Asset =
-#version:
-#icon: opdef:.?LEO_logo_v001.svg
+Houdini F1 Help Template
+compiled from https://www.sidefx.com/docs/houdini/help/nodes.html
 
-"""A quick summary of what the node does."""
+== Title ==
 
-== Overview ==
+#icon: (opt) opdef:.?Icon.svg ||  path/to/icon.svg
+#type: (opt) node
+#context: (opt) obj || sop || dop || cop2 || chop || out
+#namespace: (opt)
+#internal: (opt)
+#version: (opt)
 
-Explanation of the node's purpose and operation.
+""" Summary in one or two sentences. """
+
+:video:
+    #src:/path/to/movie.mp4
+
+Longer explanation of the node here.
+[Image:./image.jpg]
 
 @inputs
 
-Label:
-    What the input is for.
+Input Label:
+    Indented Explanation
 
 @parameters
 
-Label:
-    #id: internalname
+== opt headers ==
 
-    Explanation of what the parameter does.
+Parameter Label:
+    #id: parameter_name
 
-Label:
-    #id: internalname
+    Description of the function.
 
-    Explanation of what the parameter does.
+== opt headers ==
+
+Another Parameter:
+    #id: name
+
+    Description
 
 @related
 
-* [Node:sop/copy]
-
-
+*[Node:sop/name]
 #############################
 [Include:/nodes/sop/extractcentroid#method/] referencing attribute docs from another node

@@ -1,0 +1,62 @@
+Help Shelf Tool:
+click to open empty field
+click a button to autofill infered values
+able to dis-/enable optional parameters
+toggle to only add visible parms
+
+Variables:
+
+Title       (infered from node)
+icon        (infered from node)
+type        node
+context     (infered from node)
+namespace   (infered from node)
+internal    (infered from node)
+version     (infered from node)
+
+summary     user input
+    possible to add videos or images
+
+Inputs
+    Label:      (infered from node)
+    Description:(infered from node)
+
+    add or remove entries
+
+Parameters
+    Label:      (infered from node)
+    Name:       (infered from node)
+    Description (infered from node) 
+
+    add or remove entries
+
+    add optional headers
+
+Related
+    add or remove entries
+
+
+
+DRAG AND DROP WIDGETS IN PYSIDE2
+
+https://doc.qt.io/qt-5/qtquick-tutorials-dynamicview-dynamicview3-example.html
+https://towardsdatascience.com/python-eval-built-in-function-601f87db191
+https://srinikom.github.io/pyside-docs/PySide/QtGui/QFormLayout.html
+https://doc.qt.io/qtforpython/PySide2/QtWidgets/QListView.html#more
+https://subscription.packtpub.com/book/application_development/9781849699594/4/ch04lvl1sec37/drag-and-drop
+http://zetcode.com/gui/pysidetutorial/dragdrop/
+https://doc.qt.io/qtforpython/tutorials/basictutorial/uifiles.html
+https://doc.qt.io/qtcreator/creator-using-qt-designer.html
+https://doc.qt.io/qtforpython/overviews/dnd.html
+http://www.rihamtoulan.com/blog/2017/3/22/drag-and-drop-with-pyside
+
+eval("print(1+1)") # 2
+maybe syntax as string and eval
+
+TUTS
+https://wiki.qt.io/Qt_for_Python_Signals_and_Slots
+https://doc.qt.io/qtforpython/tutorials/index.html
+https://doc.qt.io/qtforpython/tutorials/basictutorial/qrcfiles.html
+https://www.youtube.com/watch?v=pTJDoxntknE&list=PL1FgJUcJJ03tiCC6a7sF8NKLBPY4jRjmS&index=30
+https://www.youtube.com/watch?v=vs8nDye8XvM&list=PL1FgJUcJJ03tiCC6a7sF8NKLBPY4jRjmS&index=3
+https://www.youtube.com/watch?v=APOPm01BVrk
