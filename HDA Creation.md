@@ -24,3 +24,6 @@ Interactive - Shelf Tools - Context - Network Pane - [type]
 Interactive - Shelf Tools - Context - Tab Submenu Path - LEO
 
   * *LEO*
+
+Icon:
+  * *$LEO/misc/LEO_logo_v001.svg*
