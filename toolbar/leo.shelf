@@ -11,7 +11,6 @@
 
   <tool name="leo_random_ramp" label="LEO Random Ramp" icon="$LEO/misc/LEO_logo_v001.svg">
     <script scriptType="python"><![CDATA[import leo_random_ramp 
-reload(leo_random_ramp)
 leo_random_ramp.run()]]></script>
   </tool>
 </shelfDocument>
