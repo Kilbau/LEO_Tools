@@ -1,10 +1,11 @@
-# LEO_Tools:
+# LEO_Tools (Beta):
 A collection of HDAs for SideFX Houdini.
 I'll upload them whenever I created a new one for my projects.
 
-They are made with Houdini 18 **Indie** and should only work with Indie, Apprentice or Educational.
+They are made with Houdini 18(.5) **Indie** and should only work with Indie, Apprentice or Educational.
 
 Also I'll add some useful code to the useful folder whenever I encounter something cool.
+Newer tools are made for Python 3 but should still work with Python 2 builds of Houdini.
 
 ## List of current HDAs:
 All nodes are documentated via the houdini documentation. To view the documentation press F1 or the questionmark-icon in the parameters.
