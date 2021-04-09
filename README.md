@@ -21,6 +21,7 @@ All nodes are documentated via the houdini documentation. To view the documentat
 * **LEO Object Render**: Creates an object-level node which only renders the incoming geometry.
 * **LEO Attribute Split**: Splits an incoming geometry based on an attribute.
 * **LEO Weighted Random**: Creates an random attribute based on weighted inputs. [Demo Video](https://vimeo.com/448293988)
+* **LEO Lattice**: Easily place a lattice deformer anywhere on a mesh.
 
 ### OBJ:
 * **LEO Object Render Child**: Object-level node created by LEO Object Render.
