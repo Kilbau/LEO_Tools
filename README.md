@@ -22,6 +22,7 @@ All nodes are documentated via the houdini documentation. To view the documentat
 * **LEO Attribute Split**: Splits an incoming geometry based on an attribute.
 * **LEO Weighted Random**: Creates an random attribute based on weighted inputs. [Demo Video](https://vimeo.com/448293988)
 * **LEO Lattice**: Easily place a lattice deformer anywhere on a mesh. [Demo Video](https://vimeo.com/535531223)
+* **LEO Linked Subnets**: Connects subnets together to copy nodes and parameters. [Demo Video](https://vimeo.com/618260092) or [More Information](https://www.sidefx.com/forum/topic/80497/#post-348519)
 
 ### OBJ:
 * **LEO Object Render Child**: Object-level node created by LEO Object Render.
